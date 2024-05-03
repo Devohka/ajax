@@ -5,10 +5,11 @@ ul {
 }
 
 .country__input {
+  margin-left: 300px;
   position: relative;
   width: 150px;
   height: 20px;
-  border-radius: 7px;
+  border-radius: 20px;
   border-width: 2px;
   padding-left: 10px;
   padding-right: 10px;
@@ -24,12 +25,16 @@ ul {
 }
 
 .country__button {
+  margin-left: 300px;
+  padding: 5px;
+  border: none;
   width: 150px;
   height: auto;
-  border-radius: 7px;
+  border-radius: 20px;
 }
 
 .country-box {
+  margin-left: 300px;
   width: 300px;
   position: relative;
 }
@@ -55,6 +60,7 @@ ul {
 }
 
 .country__img {
+  border-radius: 20px;
   position: absolute;
   right: -350px;
   top: 25px;
@@ -64,4 +70,8 @@ ul {
 .languages__list {
     display: flex;
     flex-direction: column;
+}
+
+img {
+  border-radius: 20px;
 }
